@@ -1,0 +1,36 @@
+/* Custom styles can be added here */
+h1 {
+    color: #8e4bfa;
+    font-weight: 600!important;
+  }
+  
+  .card {
+    background-color: #f8f9fa; /* Background color for the cards */
+  }
+  
+  .card-img-top {
+    max-height: 100%; /* Max height for images within cards */
+  }
+  
+  .custom-tall {
+    grid-row: span 2; /* Takes up 2 rows in the grid */
+  }
+  
+  .custom-medium {
+    height: auto; /* Auto height for the medium-sized card */
+  }
+  
+  .custom-short {
+    height: auto; /* Auto height for the shorter card */
+  }
+  
+  /* Additional styling for Masonry layout */
+  .masonry {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 15px;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
